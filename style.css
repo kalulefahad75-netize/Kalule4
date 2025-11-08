@@ -85,7 +85,8 @@ footer {
     padding: 0;
 }
 .services-list li {
-    background: #fff0f0;
+    background: #ff4d4d;
+    color: white;
     margin: 15px 0;
     padding: 0;
     border-radius: 12px;
@@ -132,4 +133,51 @@ footer {
 .product p {
     font-size: 0.9em;
     color: #666;
+}
+contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+.contact-form {
+    background: #fff0f0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 280px;
+}
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 1em;
+}
+.contact-form button {
+    margin-top: 15px;
+    width: 100%;
+}
+.contact-info h3 {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: #ff4d4d;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
 }

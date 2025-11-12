@@ -31,7 +31,7 @@ nav>ul>li{
 nav>ul>li>a{
     text-decoration: none;
     color: purple;
-    background-color: white;
+    background-color: orange;
     padding: 10px;
     border-radius: 30px;
 }
@@ -121,7 +121,9 @@ footer {
     transition: transform 0.3s ease;
     box-shadow: #333;
 }
-.product:hover { transform: scale(1.05); }
+.product:hover {
+ transform: scale(1.05);
+ }
 .product img {
     width: 100%;
     border-radius: 10px;
@@ -173,13 +175,28 @@ contact {
     color: #ff4d4d;
     margin-bottom: 10px;
 }
-.btn {
-    background-color: #ff4d4d;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 20px;
+
+.img{
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
+.img:hover{
+    transform: scale(1.08);
+    
+}
+.social-icons { 
+    background-color: orange;
+ display:flex;
+ gap:12px;
+align-items:center; }
+.social-icons a { 
+ color:#2a0369; 
+ font-size:20px;
+text-decoration:none;
+ margin-left: 5%;
+ }
+.social-icons a:hover {
+ opacity:0.8;
+ color: honeydew;
+ }
+    

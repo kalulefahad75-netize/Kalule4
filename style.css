@@ -185,10 +185,12 @@ contact {
     
 }
 .social-icons { 
-    background-color: orange;
+ background-color: orange;
  display:flex;
  gap:12px;
-align-items:center; }
+align-items:center;
+margin-bottom: 0;
+ }
 .social-icons a { 
  color:#2a0369; 
  font-size:20px;
